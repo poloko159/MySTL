@@ -1,0 +1,43 @@
+<robot
+  name="fullbase.SLDASM">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.00272668842272513 0.201771075946194 -0.544767933754002"
+        rpy="0 0 0" />
+      <mass
+        value="14.0238769472985" />
+      <inertia
+        ixx="0.288734875235048"
+        ixy="0.0283792020858407"
+        ixz="0.00795004365500269"
+        iyy="0.217806303756669"
+        iyz="-0.0427397354761643"
+        izz="0.264931657655938" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://fullbase.SLDASM/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://fullbase.SLDASM/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

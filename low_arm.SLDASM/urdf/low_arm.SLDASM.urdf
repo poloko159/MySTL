@@ -1,0 +1,43 @@
+<robot
+  name="low_arm.SLDASM">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-2.77555756156289E-17 0.0370629412724317 -0.000618314110826593"
+        rpy="0 0 0" />
+      <mass
+        value="0.0141511989534897" />
+      <inertia
+        ixx="4.96935651143252E-06"
+        ixy="-3.62635980543247E-21"
+        ixz="2.11758236813575E-22"
+        iyy="6.82249604361698E-07"
+        iyz="-1.25279360566371E-07"
+        izz="5.41073006740516E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://low_arm.SLDASM/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://low_arm.SLDASM/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

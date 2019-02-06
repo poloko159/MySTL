@@ -1,0 +1,43 @@
+<robot
+  name="de tren_full.SLDASM">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.036543163145739 0.163289648877248 0.00337167330750993"
+        rpy="0 0 0" />
+      <mass
+        value="0.492172788151822" />
+      <inertia
+        ixx="0.00350614800741627"
+        ixy="-3.56233213708187E-06"
+        ixz="4.73226328582066E-07"
+        iyy="0.00350988475690316"
+        iyz="2.9666701125647E-07"
+        izz="0.00700475747640881" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://de tren_full.SLDASM/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://de tren_full.SLDASM/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
